@@ -13,6 +13,7 @@ namespace SharedMvcApplication.Controllers
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             ViewBag.Message = "Modified Message on server and zaghalilo  yama";
             ViewBag.Message = "Modified Message on server (Eid Modification) confilct branch with master";
+            ViewBag.Message = "Modified Message on server (Eid Modification) make conlict with eid branch (server)";
             ViewBag.GreetingMessage = "Hello Haytham";
             return View();
         }

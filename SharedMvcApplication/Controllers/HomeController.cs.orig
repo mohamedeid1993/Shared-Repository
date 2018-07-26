@@ -12,14 +12,22 @@ namespace SharedMvcApplication.Controllers
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             ViewBag.Message = "Modified Message on server and zaghalilo  yama";
-            ViewBag.Message = "Modified Message on server (Eid Modification)";
+<<<<<<< HEAD
+            ViewBag.Message = "Modified Message on server (Eid Modification) confilct branch with master";
+            ViewBag.GreetingMessage = "Hello Haytham";
+=======
+            ViewBag.Message = "Modified Message on server (Eid Modification) make conlict with eid branch (server)";
 
+>>>>>>> b7aed8c05450a9fcafc4d79d5d126dcdae207136
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "Your app description page for fetch by haytham.";
+
+            string sss=string.Empty;
+            string s;
 
             return View();
         }
