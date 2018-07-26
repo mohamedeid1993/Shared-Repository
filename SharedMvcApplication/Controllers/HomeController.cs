@@ -21,6 +21,9 @@ namespace SharedMvcApplication.Controllers
         {
             ViewBag.Message = "Your app description page for fetch by haytham.";
 
+            string sss=string.Empty;
+            string s;
+
             return View();
         }
 
