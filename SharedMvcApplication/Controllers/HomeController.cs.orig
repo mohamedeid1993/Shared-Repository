@@ -19,7 +19,7 @@ namespace SharedMvcApplication.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page for fetch by haytham.";
+            ViewBag.Message = "Your app description page.";
 
             return View();
         }
