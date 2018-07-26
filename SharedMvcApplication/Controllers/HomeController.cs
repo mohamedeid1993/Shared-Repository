@@ -31,7 +31,7 @@ namespace SharedMvcApplication.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            string s = "test fetch";
             return View();
         }
 
